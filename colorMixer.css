@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hotpink;
+  margin: 0px;
+  position: relative;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+header {
+  height: 100px;
+  background-color: antiquewhite;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  display: inline-flex;
+  margin-left: 2rem;
+}
+
+label {
+  display: inline-flex;
+  padding-inline: 2rem;
+}
+
+p {
+  display: inline-flex;
+  padding-inline-end: 1rem;
+}
+
+#redMixer {
+  accent-color: #ff0000;
+  background-color: rgb(var(--red), 0, 0);
+}
+
+#greenMixer {
+  accent-color: #008000;
+  background-color: rgb(var(--green), 0, 0);
+}
+
+#blueMixer {
+  accent-color: #0000ff;
+  background-color: rgb(var(--blue), 0, 0);
+}
